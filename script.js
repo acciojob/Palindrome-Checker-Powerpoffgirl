@@ -1,9 +1,9 @@
 // complete the given function
 
 function palindrome(str){
-	let n = str.length();
+	let n = str.length;
 	for(let i=0; i<n; i++){
-		if(str.charAt(i) != (str.charAt(n-1-i))){
+		if(str[i] != (str[n-1-i])){
 			return false;
 		}
 	}
